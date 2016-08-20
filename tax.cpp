@@ -100,7 +100,7 @@ int main(int argc, char* argv[]){
 		case 'w': std::cout << "You lose $" << (user_input_wage ) - (taxed_money_years / 52.0) << " per week to the tax man" << std::endl; break;
 	}
 
-	std::cout << "Done by Dale Salter(Note the estimates only work if the input and output are the same)" << std::endl;
+	std::cout << "Done by Dale Salter(the input and output y/m/w have to be the same)" << std::endl;
 
 	return 0;
 }
